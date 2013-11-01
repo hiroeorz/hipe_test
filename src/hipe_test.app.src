@@ -1,0 +1,12 @@
+{application, hipe_test,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { hipe_test_app, []}},
+  {env, []}
+ ]}.
