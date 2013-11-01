@@ -1,6 +1,16 @@
 HiPEのテストです
 ======================================================================
 
+実行環境
+-----------------------------------------------------------------------
+
+MacOSX Mavericks On MacBookPro
+
+Erlang コンパイル時のオプション
+    ./configure --prefix=/usr/local/erlang/R16B02 \
+                --enable-threads --enable-smp-support --enable-shared-zlib \
+                --enable-m64-build --with-ssl --without-javac \
+                --enable-darwin-64bit
 
 HiPEあり
 -----------------------------------------------------------------------
